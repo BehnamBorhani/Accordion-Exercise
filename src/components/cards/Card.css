@@ -1,0 +1,66 @@
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   border: 1px solid black;
+   box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.409);
+   background-color: #fff;
+   color: black;
+   margin: 20px;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.card img {
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 5px;
+
+}
+
+.card .product {
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card .product .product-price {
+   color: green;
+}
+
+.card .product .product-price del {
+   color: red;
+   margin-left: 5px;
+}
+
+.card p {
+   width: 90%;
+   text-align: justify;
+   margin-bottom: 10px;
+}
+
+.card .actions {
+   width: 90%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card .actions button {
+   background-color: green;
+   color: white;
+   padding: 10px;
+   border: none;
+}
+
+.card .actions .fa {
+   font-size: 20px;
+}
+
+.card .actions .fa-heart {
+   color: red;
+}
