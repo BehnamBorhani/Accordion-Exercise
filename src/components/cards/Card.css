@@ -18,7 +18,6 @@
    object-fit: cover;
    object-position: center;
    border-radius: 5px;
-
 }
 
 .card .product {
@@ -55,12 +54,22 @@
    color: white;
    padding: 10px;
    border: none;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+.card .actions button:hover {
+   transform: translateY(-2px);
+   box-shadow: 2px 5px 8px #aaa;
 }
 
 .card .actions .fa {
-   font-size: 20px;
+   color: red;
+   font-size: 25px;
+   cursor: pointer;
+   transition: all 0.5s;
 }
 
-.card .actions .fa-heart {
-   color: red;
+.card .actions .fa:hover {
+   transform: scale(1.2);
 }

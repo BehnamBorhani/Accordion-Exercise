@@ -14,17 +14,22 @@ class Card extends Component {
    };
 
    render() {
-      const { img, title, price} = this.props;
+      const { img, title, price } = this.props;
       return (
          <>
             <div className="card">
                <img src={img} alt={title} />
                <div className="product">
                   <h2 className="product-name">{title}</h2>
-                  <h3 className="product-price">${price - 5}<del>${price}</del></h3>
+                  <h3 className="product-price">
+                     ${price - 5}
+                     <del>${price}</del>
+                  </h3>
                </div>
                <p className="description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita accusantium unde. Nesciunt, id quo. Commodi molestiae corrupti quas ducimus.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  expedita accusantium unde. Nesciunt, id quo. Commodi molestiae
+                  corrupti quas ducimus.
                </p>
                <div className="actions">
                   <button>Add to shop card</button>
