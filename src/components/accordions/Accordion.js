@@ -14,7 +14,7 @@ class Accordion extends Component {
    render() {
       return (
          <>
-            <div className="header" onClick={this.toggler}>
+            <div className="header active" onClick={this.toggler}>
                <h2>Delicious Cake</h2>
                <span></span>
             </div>
