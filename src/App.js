@@ -6,6 +6,9 @@ function App() {
       <>
          <header className="App-header">
             <Accordion />
+            <Accordion />
+            <Accordion />
+            <Accordion />
          </header>
       </>
    );
