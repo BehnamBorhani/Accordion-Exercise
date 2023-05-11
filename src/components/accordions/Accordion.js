@@ -7,8 +7,8 @@ class Accordion extends Component {
    toggler = (event) => {
       const allHeaders = document.querySelectorAll(".header");
       allHeaders.forEach((header) => {
-         if (event.target === header) {
-            event.target.classList.toggle("active");
+         if (event.currentTarget === header) {
+            event.currentTarget.classList.toggle("active");
          } else {
             header.classList.remove("active");
          }
