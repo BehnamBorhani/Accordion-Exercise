@@ -1,0 +1,124 @@
+{
+   "productsGroups": [
+      {
+         "groupID": 1,
+         "groupTitle": "Donuts",
+         "groupProducts": [
+            {
+               "productID": 1,
+               "productName": "Yeast Donut",
+               "productPrice": 20,
+               "productImage": "./images/donut-cake-1.jpg"
+            },
+            {
+               "productID": 2,
+               "productName": "Filled Donut",
+               "productPrice": 17,
+               "productImage": "./images/donut-cake-2.jpg"
+            },
+            {
+               "productID": 3,
+               "productName": "Healthy Donut",
+               "productPrice": 14,
+               "productImage": "./images/donut-cake-4.jpg"
+            },
+            {
+               "productID": 4,
+               "productName": "Cocoa Donut",
+               "productPrice": 20,
+               "productImage": "./images/donut-cake-6.jpg"
+            }
+         ]
+      },
+      {
+         "groupID": 2,
+         "groupTitle": "Birthday Cakes",
+         "groupProducts": [
+            {
+               "productID": 5,
+               "productName": "Dotted Cake",
+               "productPrice": 23,
+               "productImage": "./images/birthday-cake-1.jpg"
+            },
+            {
+               "productID": 6,
+               "productName": "Biscuit Cake",
+               "productPrice": 26,
+               "productImage": "./images/birthday-cake-5.jpg"
+            },
+            {
+               "productID": 7,
+               "productName": "Chocolaty",
+               "productPrice": 29,
+               "productImage": "./images/birthday-cake-3.jpg"
+            },
+            {
+               "productID": 8,
+               "productName": "Pink Cake",
+               "productPrice": 35,
+               "productImage": "./images/birthday-cake-4.jpg"
+            }
+         ]
+      },
+      {
+         "groupID": 3,
+         "groupTitle": "Cup Cakes",
+         "groupProducts": [
+            {
+               "productID": 9,
+               "productName": "Heart Cup",
+               "productPrice": 7,
+               "productImage": "./images/cup-cake-8.jpg"
+            },
+            {
+               "productID": 10,
+               "productName": "Hell Cup",
+               "productPrice": 10,
+               "productImage": "./images/cup-cake-2.jpg"
+            },
+            {
+               "productID": 11,
+               "productName": "Cutie Cup",
+               "productPrice": 8,
+               "productImage": "./images/cup-cake-3.jpg"
+            },
+            {
+               "productID": 12,
+               "productName": "Sweet Cup",
+               "productPrice": 11,
+               "productImage": "./images/cup-cake-4.jpg"
+            }
+         ]
+      },
+      {
+         "groupID": 4,
+         "groupTitle": "Special Cakes",
+         "groupProducts": [
+            {
+               "productID": 13,
+               "productName": "Chiffon Cake",
+               "productPrice": 30,
+               "productImage": "./images/special-cake-1.jpg"
+            },
+            {
+               "productID": 14,
+               "productName": "Biscuit Cake",
+               "productPrice": 33,
+               "productImage": "./images/special-cake-2.jpg"
+            },
+            {
+               "productID": 15,
+               "productName": "Sponge Cake",
+               "productPrice": 23,
+               "productImage": "./images/special-cake-3.jpg"
+            },
+            {
+               "productID": 16,
+               "productName": "Genoise Cake",
+               "productPrice": 40,
+               "productImage": "./images/special-cake-4.jpg"
+            }
+         ]
+      }
+   ]
+}

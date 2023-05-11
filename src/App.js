@@ -5,10 +5,10 @@ function App() {
    return (
       <>
          <header className="App-header">
-            <Accordion />
-            <Accordion />
-            <Accordion />
-            <Accordion />
+            <Accordion id={1}/>
+            <Accordion id={2}/>
+            <Accordion id={3}/>
+            <Accordion id={4}/>
          </header>
       </>
    );

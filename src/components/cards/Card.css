@@ -39,6 +39,9 @@
 
 .card p {
    width: 90%;
+   font-size: 14px;
+   max-height: 100px;
+   overflow: hidden;
    text-align: justify;
    margin-bottom: 10px;
 }
@@ -73,4 +76,5 @@
 
 .card .actions .fa:hover {
    transform: scale(1.2);
+   filter: drop-shadow(2px 5px 8px #aaa);
 }

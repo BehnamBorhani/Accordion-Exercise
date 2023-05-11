@@ -20,7 +20,7 @@ class Card extends Component {
             <div className="card">
                <img src={img} alt={title} />
                <div className="product">
-                  <h2 className="product-name">{title}</h2>
+                  <h3 className="product-name">{title}</h3>
                   <h3 className="product-price">
                      ${price - 5}
                      <del>${price}</del>
