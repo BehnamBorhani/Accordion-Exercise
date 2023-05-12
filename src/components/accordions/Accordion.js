@@ -15,20 +15,6 @@ class Accordion extends Component {
       });
    };
 
-   createCards = (groupProducts) => {
-      let allCards = groupProducts.map((product) => {
-         return (
-            <Card
-               img={product.productImage}
-               title={product.productName}
-               price={product.productPrice}
-            />
-         );
-      });
-
-      return allCards;
-   };
-
    render() {
       const groupData = jsonData.productsGroups.find((group) => {
          return group.groupID === this.props.id;
@@ -43,7 +29,17 @@ class Accordion extends Component {
                </div>
                <div className="content">
                   {
-                     this.createCards(groupData.groupProducts)
+                     groupData.groupProducts.map((product) => {
+                        return (
+                           <Card
+                              img={product.productImage}
+                              title={product.productName}
+                              price={product.productPrice}
+                              key={product.productID}
+                           />
+                        );
+                     })
+
                      /*result:
                         <Card img="./images/cake1.jpg" title="Chiffon Cake" price="30" />
                         <Card img="./images/cake2.jpg" title="Biscuit Cake" price="15" />
